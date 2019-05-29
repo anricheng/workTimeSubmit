@@ -102,7 +102,7 @@ def genXls(list):
 
     month = getCurrentMonth()
     r = 1
-    for index in range(len(list) - 1, 0, -1):
+    for index in range(len(list) - 1, -1, -1):
         d = list[index]
         rowData = []
     
